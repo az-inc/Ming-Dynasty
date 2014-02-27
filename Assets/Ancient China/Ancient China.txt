@@ -1,0 +1,76 @@
+The Ancient China package is a compilation of architectural models and
+some props for making a credible ancient chinese town.
+All models have hand made 2nd UV channel for lightmaps. I don't recommend
+using "Generate Lightmaps UVs" because the lightmap seams are more obvious 
+and less optimized.
+This package uses some Nobiax Free packages I have already published on 
+Asset Store. Feel free to download and use them all :)
+
+
+This package includes: 
+
+
+- Buildings: 4 detailed houses (with 3 LOD) and a detailed Taoist pavilion (4 LOD).
+A Castle model and 39 Great Wall sections to be used as background props (not
+detailed, no LOD).
+
+- Nobiax free assets, some textures and plants taken from packages I have already 
+published on Asset Store.
+
+- Some props with LOD.
+
+- Trees generated using Nobiax textures and Unity tree system.
+
+- The demo scene.
+
+*please note that nearly all models are available in different mesh
+complexity versions, and have a LODed prefab in case you have 
+Unity Pro. Also note that some lowest LOD meshes are meant to be seen from
+the distance, should not be considered as low poly meshes for close views.
+
+
+_____________________________________
+
+How to use.
+
+- Houses and Pavilion. Use the prefabs from buildings/prefabs, with the desired 
+LOD or the "LODed" model if you use Unity Pro.
+
+- For the Great Wall prefabs (buildings/prefabs/Great Wall) you can choose make 
+your own design chosing from 39 different wall shapes, or use one of the provided 
+long sections named "greatwall_comp1" and "greatwall_comp2".
+The best way to use them, is place them on a terrain and then make the terrain shape 
+fit with the wall design.
+
+ 
+- For the props, chose a "LODed" prefabs from props/prefabs or chose any LOD from 
+props/meshes.
+
+- To use the trees, you can either place them in your scene or use the Unity Terrain 
+system. 
+
+_____________________________________
+
+
+Sound effects from the demo are royalti free from 
+http://www.pacdv.com/sounds/ambience_sounds.html which I did not include in the package.
+
+
+
+_____________________________________
+
+Version history:
+
+1.0 Initial release
+
+
+
+_____________________________________
+
+
+
+Contact: dactilardesign@gmail.com
+
+
+
+
