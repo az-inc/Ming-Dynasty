@@ -1,6 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 I thought this would be perfect for the high mountain and desert areas.
 
+=======
+I thought this would be perfect for the high mountain and desert areas.
+
+>>>>>>> 1d31767c801b51315f2c76994ba3243c14ba7381
 =======
 I thought this would be perfect for the high mountain and desert areas.
 
