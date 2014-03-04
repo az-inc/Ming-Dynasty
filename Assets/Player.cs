@@ -1,9 +1,18 @@
-﻿using UnityEngine;
+﻿//Developed by DevCardude
+using UnityEngine;
 using System.Collections;
 
 namespace Player
 {
-    //Developed by DevCardude
+    enum gender {
+		Male,
+		Female
+	}
+	enum race {
+		Mingling,
+		UFP
+	}
+	
     public class PlayerObject
     {
         public int playerID; //Created for multiplayer perposes. A value of 0-100, inclusive.

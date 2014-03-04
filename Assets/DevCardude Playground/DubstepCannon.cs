@@ -6,11 +6,13 @@ using System.Collections;
 
 public class DubstepCannon: MonoBehaviour {
 	public int currentSong;
+	public bool isEffect = true;
 
 	// Use this for initialization
 	void Start () {
 		if (gameObject.name == "DubstepCannonWeaponEffect") {
 						gameObject.particleSystem.enableEmission = false;
+			isEffect = false;
 				}
 	}
 	
@@ -44,7 +46,9 @@ public class DubstepCannon: MonoBehaviour {
 	}
 
 	void fireCannon(int song){
-		gameObject.audio.Play ();
+		if (isEffect == false) {
+						gameObject.audio.Play ();
+				}
 		//do the step up thing like in the song
 		gameObject.particleSystem.enableEmission = true;
 	}
